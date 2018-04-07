@@ -26,6 +26,7 @@ function kittens() {
     return [newKitten, ...kittens]
   }
   function removeLastKitten(){
+    var kittens2
     kittens2 = kittens.slice(0,kittens.length-1)
     return kittens2
   }
