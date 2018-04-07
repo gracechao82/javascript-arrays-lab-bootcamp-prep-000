@@ -7,6 +7,7 @@ function kittens() {
     kittens.push(newKitten)
     return kittens
   }
-  function destructivelyPrePendKitten(newKitten){
-    
+  function destructivelyPrependKitten(newKitten){
+    kittens.shift(newKitten)
+    return kittens
   }
