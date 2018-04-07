@@ -26,6 +26,6 @@ function kittens() {
     return [newKitten, ...kittens]
   }
   function removeLastKitten(){
-    kittens2 = kittens.pop()
+    kittens2 = kittens.slice(0,kittens.length-1)
     return kittens2
   }
