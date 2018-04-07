@@ -19,3 +19,6 @@ function kittens() {
     kittens.shift()
     return kittens
   }
+  function appendKitten(newKitten){
+    return [...kittens, newKitten]
+  }
